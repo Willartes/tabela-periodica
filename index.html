@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Periódica</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tabela Periódica</h1>
+    </header>
+    <main>
+        <section class="tabela-periodica">
+            <!-- Números dos grupos (1-18) -->
+            <div class="grupo-indicador grupo-1">1</div>
+            <div class="grupo-indicador grupo-2">2</div>
+            <div class="grupo-indicador grupo-3">3</div>
+            <div class="grupo-indicador grupo-4">4</div>
+            <div class="grupo-indicador grupo-5">5</div>
+            <div class="grupo-indicador grupo-6">6</div>
+            <div class="grupo-indicador grupo-7">7</div>
+            <div class="grupo-indicador grupo-8">8</div>
+            <div class="grupo-indicador grupo-9">9</div>
+            <div class="grupo-indicador grupo-10">10</div>
+            <div class="grupo-indicador grupo-11">11</div>
+            <div class="grupo-indicador grupo-12">12</div>
+            <div class="grupo-indicador grupo-13">13</div>
+            <div class="grupo-indicador grupo-14">14</div>
+            <div class="grupo-indicador grupo-15">15</div>
+            <div class="grupo-indicador grupo-16">16</div>
+            <div class="grupo-indicador grupo-17">17</div>
+            <div class="grupo-indicador grupo-18">18</div>
+            
+            <!-- Período 1 -->
+            <section class="periodo" id="periodo-1">
+                <article class="elemento nao-metais" id="H" data-grupo="1">
+                    <span class="numero-atomico">1</span>
+                    <span class="simbolo">H</span>
+                    <span class="nome">Hidrogênio</span>
+                    <span class="massa-atomica">1.008</span>
+                    <span class="config-eletronica">1s¹</span>
+                </article>
+                <article class="elemento gases-nobres" id="He" data-grupo="18">
+                    <span class="numero-atomico">2</span>
+                    <span class="simbolo">He</span>
+                    <span class="nome">Hélio</span>
+                    <span class="massa-atomica">4.0026</span>
+                    <span class="config-eletronica">1s²</span>
+                </article>
+            </section>
+            
+            <!-- Período 2 -->
+            <section class="periodo" id="periodo-2">
+                <article class="elemento metais-alcalinos" id="Li" data-grupo="1">
+                    <span class="numero-atomico">3</span>
+                    <span class="simbolo">Li</span>
+                    <span class="nome">Lítio</span>
+                    <span class="massa-atomica">6.94</span>
+                    <span class="config-eletronica">1s² 2s¹</span>
+                </article>
+                <article class="elemento metais-alcalinos-terrosos" id="Be" data-grupo="2">
+                    <span class="numero-atomico">4</span>
+                    <span class="simbolo">Be</span>
+                    <span class="nome">Berílio</span>
+                    <span class="massa-atomica">9.0122</span>
+                    <span class="config-eletronica">1s² 2s²</span>
+                </article>
+                <article class="elemento semimetais" id="B" data-grupo="13">
+                    <span class="numero-atomico">5</span>
+                    <span class="simbolo">B</span>
+                    <span class="nome">Boro</span>
+                    <span class="massa-atomica">10.81</span>
+                    <span class="config-eletronica">1s² 2s² 2p¹</span>
+                </article>
+                <article class="elemento nao-metais" id="C" data-grupo="14">
+                    <span class="numero-atomico">6</span>
+                    <span class="simbolo">C</span>
+                    <span class="nome">Carbono</span>
+                    <span class="massa-atomica">12.011</span>
+                    <span class="config-eletronica">1s² 2s² 2p²</span>
+                </article>
+                <article class="elemento nao-metais" id="N" data-grupo="15">
+                    <span class="numero-atomico">7</span>
+                    <span class="simbolo">N</span>
+                    <span class="nome">Nitrogênio</span>
+                    <span class="massa-atomica">14.007</span>
+                    <span class="config-eletronica">1s² 2s² 2p³</span>
+                </article>
+                <article class="elemento nao-metais" id="O" data-grupo="16">
+                    <span class="numero-atomico">8</span>
+                    <span class="simbolo">O</span>
+                    <span class="nome">Oxigênio</span>
+                    <span class="massa-atomica">15.999</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁴</span>
+                </article>
+                <article class="elemento halogenios" id="F" data-grupo="17">
+                    <span class="numero-atomico">9</span>
+                    <span class="simbolo">F</span>
+                    <span class="nome">Flúor</span>
+                    <span class="massa-atomica">18.998</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁵</span>
+                </article>
+                <article class="elemento gases-nobres" id="Ne" data-grupo="18">
+                    <span class="numero-atomico">10</span>
+                    <span class="simbolo">Ne</span>
+                    <span class="nome">Neônio</span>
+                    <span class="massa-atomica">20.180</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶</span>
+                </article>
+            </section>
+
+            <!-- Período 3 -->
+            <section class="periodo" id="periodo-3">
+                <article class="elemento metais-alcalinos" id="Na" data-grupo="1">
+                    <span class="numero-atomico">11</span>
+                    <span class="simbolo">Na</span>
+                    <span class="nome">Sódio</span>
+                    <span class="massa-atomica">22.990</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s¹</span>
+                </article>
+                <article class="elemento metais-alcalinos-terrosos" id="Mg" data-grupo="2">
+                    <span class="numero-atomico">12</span>
+                    <span class="simbolo">Mg</span>
+                    <span class="nome">Magnésio</span>
+                    <span class="massa-atomica">24.305</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s²</span>
+                </article>
+                <article class="elemento metais-pos-transicao" id="Al" data-grupo="13">
+                    <span class="numero-atomico">13</span>
+                    <span class="simbolo">Al</span>
+                    <span class="nome">Alumínio</span>
+                    <span class="massa-atomica">26.982</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p¹</span>
+                </article>
+                <article class="elemento semimetais" id="Si" data-grupo="14">
+                    <span class="numero-atomico">14</span>
+                    <span class="simbolo">Si</span>
+                    <span class="nome">Silício</span>
+                    <span class="massa-atomica">28.085</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p²</span>
+                </article>
+                <article class="elemento nao-metais" id="P" data-grupo="15">
+                    <span class="numero-atomico">15</span>
+                    <span class="simbolo">P</span>
+                    <span class="nome">Fósforo</span>
+                    <span class="massa-atomica">30.974</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p³</span>
+                </article>
+                <article class="elemento nao-metais" id="S" data-grupo="16">
+                    <span class="numero-atomico">16</span>
+                    <span class="simbolo">S</span>
+                    <span class="nome">Enxofre</span>
+                    <span class="massa-atomica">32.06</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁴</span>
+                </article>
+                <article class="elemento halogenios" id="Cl" data-grupo="17">
+                    <span class="numero-atomico">17</span>
+                    <span class="simbolo">Cl</span>
+                    <span class="nome">Cloro</span>
+                    <span class="massa-atomica">35.45</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁵</span>
+                </article>
+                <article class="elemento gases-nobres" id="Ar" data-grupo="18">
+                    <span class="numero-atomico">18</span>
+                    <span class="simbolo">Ar</span>
+                    <span class="nome">Argônio</span>
+                    <span class="massa-atomica">39.948</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶</span>
+                </article>
+            </section>
+
+            <!-- Período 4 -->
+            <section class="periodo" id="periodo-4">
+                <article class="elemento metais-alcalinos" id="K" data-grupo="1">
+                    <span class="numero-atomico">19</span>
+                    <span class="simbolo">K</span>
+                    <span class="nome">Potássio</span>
+                    <span class="massa-atomica">39.098</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹</span>
+                </article>
+                <article class="elemento metais-alcalinos-terrosos" id="Ca" data-grupo="2">
+                    <span class="numero-atomico">20</span>
+                    <span class="simbolo">Ca</span>
+                    <span class="nome">Cálcio</span>
+                    <span class="massa-atomica">40.078</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s²</span>
+                </article>
+                <article class="elemento metais-transicao" id="Sc" data-grupo="3">
+                    <span class="numero-atomico">21</span>
+                    <span class="simbolo">Sc</span>
+                    <span class="nome">Escândio</span>
+                    <span class="massa-atomica">44.956</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹</span>
+                </article>
+                <article class="elemento metais-transicao" id="Ti" data-grupo="4">
+                    <span class="numero-atomico">22</span>
+                    <span class="simbolo">Ti</span>
+                    <span class="nome">Titânio</span>
+                    <span class="massa-atomica">47.867</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d²</span>
+                </article>
+                <article class="elemento metais-transicao" id="V" data-grupo="5">
+                    <span class="numero-atomico">23</span>
+                    <span class="simbolo">V</span>
+                    <span class="nome">Vanádio</span>
+                    <span class="massa-atomica">50.942</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d³</span>
+                </article>
+                <article class="elemento metais-transicao" id="Cr" data-grupo="6">
+                    <span class="numero-atomico">24</span>
+                    <span class="simbolo">Cr</span>
+                    <span class="nome">Crômio</span>
+                    <span class="massa-atomica">51.996</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹ 3d⁵</span>
+                </article>
+                <article class="elemento metais-transicao" id="Mn" data-grupo="7">
+                    <span class="numero-atomico">25</span>
+                    <span class="simbolo">Mn</span>
+                    <span class="nome">Manganês</span>
+                    <span class="massa-atomica">54.938</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁵</span>
+                </article>
+                <article class="elemento metais-transicao" id="Fe" data-grupo="8">
+                    <span class="numero-atomico">26</span>
+                    <span class="simbolo">Fe</span>
+                    <span class="nome">Ferro</span>
+                    <span class="massa-atomica">55.845</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁶</span>
+                </article>
+                <article class="elemento metais-transicao" id="Co" data-grupo="9">
+                    <span class="numero-atomico">27</span>
+                    <span class="simbolo">Co</span>
+                    <span class="nome">Cobalto</span>
+                    <span class="massa-atomica">58.933</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁷</span>
+                </article>
+                <article class="elemento metais-transicao" id="Ni" data-grupo="10">
+                    <span class="numero-atomico">28</span>
+                    <span class="simbolo">Ni</span>
+                    <span class="nome">Níquel</span>
+                    <span class="massa-atomica">58.693</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁸</span>
+                </article>
+                <article class="elemento metais-transicao" id="Cu" data-grupo="11">
+                    <span class="numero-atomico">29</span>
+                    <span class="simbolo">Cu</span>
+                    <span class="nome">Cobre</span>
+                    <span class="massa-atomica">63.546</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹ 3d¹⁰</span>
+                </article>
+                <article class="elemento metais-transicao" id="Zn" data-grupo="12">
+                    <span class="numero-atomico">30</span>
+                    <span class="simbolo">Zn</span>
+                    <span class="nome">Zinco</span>
+                    <span class="massa-atomica">65.38</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰</span>
+                </article>
+                <article class="elemento metais-pos-transicao" id="Ga" data-grupo="13">
+                    <span class="numero-atomico">31</span>
+                    <span class="simbolo">Ga</span>
+                    <span class="nome">Gálio</span>
+                    <span class="massa-atomica">69.723</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p¹</span>
+                </article>
+                <article class="elemento semimetais" id="Ge" data-grupo="14">
+                    <span class="numero-atomico">32</span>
+                    <span class="simbolo">Ge</span>
+                    <span class="nome">Germânio</span>
+                    <span class="massa-atomica">72.630</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p²</span>
+                </article>
+                <article class="elemento semimetais" id="As" data-grupo="15">
+                    <span class="numero-atomico">33</span>
+                    <span class="simbolo">As</span>
+                    <span class="nome">Arsênio</span>
+                    <span class="massa-atomica">74.922</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p³</span>
+                </article>
+                <article class="elemento nao-metais" id="Se" data-grupo="16">
+                    <span class="numero-atomico">34</span>
+                    <span class="simbolo">Se</span>
+                    <span class="nome">Selênio</span>
+                    <span class="massa-atomica">78.971</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁴</span>
+                </article>
+                <article class="elemento halogenios" id="Br" data-grupo="17">
+                    <span class="numero-atomico">35</span>
+                    <span class="simbolo">Br</span>
+                    <span class="nome">Bromo</span>
+                    <span class="massa-atomica">79.904</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁵</span>
+                </article>
+                <article class="elemento gases-nobres" id="Kr" data-grupo="18">
+                    <span class="numero-atomico">36</span>
+                    <span class="simbolo">Kr</span>
+                    <span class="nome">Criptônio</span>
+                    <span class="massa-atomica">83.798</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶</span>
+                </article>
+            </section>
+
+            <!-- Período 5 -->
+            <section class="periodo" id="periodo-5">
+                <article class="elemento metais-alcalinos" id="Rb" data-grupo="1">
+                    <span class="numero-atomico">37</span>
+                    <span class="simbolo">Rb</span>
+                    <span class="nome">Rubídio</span>
+                    <span class="massa-atomica">85.468</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s¹</span>
+                </article>
+                <article class="elemento metais-alcalinos-terrosos" id="Sr" data-grupo="2">
+                    <span class="numero-atomico">38</span>
+                    <span class="simbolo">Sr</span>
+                    <span class="nome">Estrôncio</span>
+                    <span class="massa-atomica">87.62</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s²</span>
+                </article>
+                <article class="elemento metais-transicao" id="Y" data-grupo="3">
+                    <span class="numero-atomico">39</span>
+                    <span class="simbolo">Y</span>
+                    <span class="nome">Ítrio</span>
+                    <span class="massa-atomica">88.906</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹</span>
+                </article>
+                <article class="elemento metais-transicao" id="Zr" data-grupo="4">
+                    <span class="numero-atomico">40</span>
+                    <span class="simbolo">Zr</span>
+                    <span class="nome">Zircônio</span>
+                    <span class="massa-atomica">91.224</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d²</span>
+                </article>
+                <article class="elemento metais-transicao" id="Nb" data-grupo="5">
+                    <span class="numero-atomico">41</span>
+                    <span class="simbolo">Nb</span>
+                    <span class="nome">Nióbio</span>
+                    <span class="massa-atomica">92.906</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s¹ 4d⁴</span>
+                </article>
+                <article class="elemento metais-transicao" id="Mo" data-grupo="6">
+                    <span class="numero-atomico">42</span>
+                    <span class="simbolo">Mo</span>
+                    <span class="nome">Molibdênio</span>
+                    <span class="massa-atomica">95.95</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s¹ 4d⁵</span>
+                </article>
+                <article class="elemento metais-transicao" id="Tc" data-grupo="7">
+                    <span class="numero-atomico">43</span>
+                    <span class="simbolo">Tc</span>
+                    <span class="nome">Tecnécio</span>
+                    <span class="massa-atomica">[98]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d⁵</span>
+                </article>
+                <article class="elemento metais-transicao" id="Ru" data-grupo="8">
+                    <span class="numero-atomico">44</span>
+                    <span class="simbolo">Ru</span>
+                    <span class="nome">Rutênio</span>
+                    <span class="massa-atomica">101.07</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s¹ 4d⁷</span>
+                </article>
+                <article class="elemento metais-transicao" id="Rh" data-grupo="9">
+                    <span class="numero-atomico">45</span>
+                    <span class="simbolo">Rh</span>
+                    <span class="nome">Ródio</span>
+                    <span class="massa-atomica">102.91</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s¹ 4d⁸</span>
+                </article>
+                <article class="elemento metais-transicao" id="Pd" data-grupo="10">
+                    <span class="numero-atomico">46</span>
+                    <span class="simbolo">Pd</span>
+                    <span class="nome">Paládio</span>
+                    <span class="massa-atomica">106.42</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 4d¹⁰</span>
+                </article>
+                <article class="elemento metais-transicao" id="Ag" data-grupo="11">
+                    <span class="numero-atomico">47</span>
+                    <span class="simbolo">Ag</span>
+                    <span class="nome">Prata</span>
+                    <span class="massa-atomica">107.87</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s¹ 4d¹⁰</span>
+                </article>
+                <article class="elemento metais-transicao" id="Cd" data-grupo="12">
+                    <span class="numero-atomico">48</span>
+                    <span class="simbolo">Cd</span>
+                    <span class="nome">Cádmio</span>
+                    <span class="massa-atomica">112.41</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰</span>
+                </article>
+                <article class="elemento metais-pos-transicao" id="In" data-grupo="13">
+                    <span class="numero-atomico">49</span>
+                    <span class="simbolo">In</span>
+                    <span class="nome">Índio</span>
+                    <span class="massa-atomica">114.82</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p¹</span>
+                </article>
+                <article class="elemento metais-pos-transicao" id="Sn" data-grupo="14">
+                    <span class="numero-atomico">50</span>
+                    <span class="simbolo">Sn</span>
+                    <span class="nome">Estanho</span>
+                    <span class="massa-atomica">118.71</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p²</span>
+                </article>
+                <article class="elemento semimetais" id="Sb" data-grupo="15">
+                    <span class="numero-atomico">51</span>
+                    <span class="simbolo">Sb</span>
+                    <span class="nome">Antimônio</span>
+                    <span class="massa-atomica">121.76</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p³</span>
+                </article>
+                <article class="elemento semimetais" id="Te" data-grupo="16">
+                    <span class="numero-atomico">52</span>
+                    <span class="simbolo">Te</span>
+                    <span class="nome">Telúrio</span>
+                    <span class="massa-atomica">127.60</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁴</span>
+                </article>
+                <article class="elemento halogenios" id="I" data-grupo="17">
+                    <span class="numero-atomico">53</span>
+                    <span class="simbolo">I</span>
+                    <span class="nome">Iodo</span>
+                    <span class="massa-atomica">126.90</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁵</span>
+                </article>
+                <article class="elemento gases-nobres" id="Xe" data-grupo="18">
+                    <span class="numero-atomico">54</span>
+                    <span class="simbolo">Xe</span>
+                    <span class="nome">Xenônio</span>
+                    <span class="massa-atomica">131.29</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶</span>
+                </article>
+            </section>
+
+            <!-- Período 6 -->
+            <section class="periodo" id="periodo-6">
+                <article class="elemento metais-alcalinos" id="Cs" data-grupo="1">
+                    <span class="numero-atomico">55</span>
+                    <span class="simbolo">Cs</span>
+                    <span class="nome">Césio</span>
+                    <span class="massa-atomica">132.91</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s¹</span>
+                </article>
+                <article class="elemento metais-alcalinos-terrosos" id="Ba" data-grupo="2">
+                    <span class="numero-atomico">56</span>
+                    <span class="simbolo">Ba</span>
+                    <span class="nome">Bário</span>
+                    <span class="massa-atomica">137.33</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s²</span>
+                </article>
+                <!-- Lantanídeos (indicador) -->
+                <article class="elemento lantanideos-actinideos-indicador" id="La-Lu">
+                    <span>57-71</span>
+                </article>
+                <article class="elemento metais-transicao" id="Hf" data-grupo="4">
+                    <span class="numero-atomico">72</span>
+                    <span class="simbolo">Hf</span>
+                    <span class="nome">Háfnio</span>
+                    <span class="massa-atomica">178.49</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d²</span>
+                </article>
+                
+                <article class="elemento metais-transicao" id="Ta" data-grupo="5">
+                    <span class="numero-atomico">73</span>
+                    <span class="simbolo">Ta</span>
+                    <span class="nome">Tântalo</span>
+                    <span class="massa-atomica">180.95</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d³</span>
+                </article>
+                <article class="elemento metais-transicao" id="W" data-grupo="6">
+                    <span class="numero-atomico">74</span>
+                    <span class="simbolo">W</span>
+                    <span class="nome">Tungstênio</span>
+                    <span class="massa-atomica">183.84</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d⁴</span>
+                </article>
+                <article class="elemento metais-transicao" id="Re" data-grupo="7">
+                    <span class="numero-atomico">75</span>
+                    <span class="simbolo">Re</span>
+                    <span class="nome">Rênio</span>
+                    <span class="massa-atomica">186.21</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d⁵</span>
+                </article>
+                <article class="elemento metais-transicao" id="Os" data-grupo="8">
+                    <span class="numero-atomico">76</span>
+                    <span class="simbolo">Os</span>
+                    <span class="nome">Ósmio</span>
+                    <span class="massa-atomica">190.23</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d⁶</span>
+                </article>
+                <article class="elemento metais-transicao" id="Ir" data-grupo="9">
+                    <span class="numero-atomico">77</span>
+                    <span class="simbolo">Ir</span>
+                    <span class="nome">Irídio</span>
+                    <span class="massa-atomica">192.22</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d⁷</span>
+                </article>
+                <article class="elemento metais-transicao" id="Pt" data-grupo="10">
+                    <span class="numero-atomico">78</span>
+                    <span class="simbolo">Pt</span>
+                    <span class="nome">Platina</span>
+                    <span class="massa-atomica">195.08</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s¹ 4f¹⁴ 5d⁹</span>
+                </article>
+                <article class="elemento metais-transicao" id="Au" data-grupo="11">
+                    <span class="numero-atomico">79</span>
+                    <span class="simbolo">Au</span>
+                    <span class="nome">Ouro</span>
+                    <span class="massa-atomica">196.97</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s¹ 4f¹⁴ 5d¹⁰</span>
+                </article>
+                <article class="elemento metais-transicao" id="Hg" data-grupo="12">
+                    <span class="numero-atomico">80</span>
+                    <span class="simbolo">Hg</span>
+                    <span class="nome">Mercúrio</span>
+                    <span class="massa-atomica">200.59</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰</span>
+                </article>
+                <article class="elemento metais-pos-transicao" id="Tl" data-grupo="13">
+                    <span class="numero-atomico">81</span>
+                    <span class="simbolo">Tl</span>
+                    <span class="nome">Tálio</span>
+                    <span class="massa-atomica">204.38</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p¹</span>
+                </article>
+                <article class="elemento metais-pos-transicao" id="Pb" data-grupo="14">
+                    <span class="numero-atomico">82</span>
+                    <span class="simbolo">Pb</span>
+                    <span class="nome">Chumbo</span>
+                    <span class="massa-atomica">207.2</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p²</span>
+                </article>
+                <article class="elemento metais-pos-transicao" id="Bi" data-grupo="15">
+                    <span class="numero-atomico">83</span>
+                    <span class="simbolo">Bi</span>
+                    <span class="nome">Bismuto</span>
+                    <span class="massa-atomica">208.98</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p³</span>
+                </article>
+                <article class="elemento semimetais" id="Po" data-grupo="16">
+                    <span class="numero-atomico">84</span>
+                    <span class="simbolo">Po</span>
+                    <span class="nome">Polônio</span>
+                    <span class="massa-atomica">[209]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁴</span>
+                </article>
+                <article class="elemento halogenios" id="At" data-grupo="17">
+                    <span class="numero-atomico">85</span>
+                    <span class="simbolo">At</span>
+                    <span class="nome">Astato</span>
+                    <span class="massa-atomica">[210]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁵</span>
+                </article>
+                <article class="elemento gases-nobres" id="Rn" data-grupo="18">
+                    <span class="numero-atomico">86</span>
+                    <span class="simbolo">Rn</span>
+                    <span class="nome">Radônio</span>
+                    <span class="massa-atomica">[222]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶</span>
+                </article>
+            </section>
+            <!-- Período 7 -->
+            <section class="periodo" id="periodo-7">
+                <article class="elemento metais-alcalinos" id="Fr" data-grupo="1">
+                    <span class="numero-atomico">87</span>
+                    <span class="simbolo">Fr</span>
+                    <span class="nome">Frâncio</span>
+                    <span class="massa-atomica">[223]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s¹</span>
+                </article>
+                <article class="elemento metais-alcalinos-terrosos" id="Ra" data-grupo="2">
+                    <span class="numero-atomico">88</span>
+                    <span class="simbolo">Ra</span>
+                    <span class="nome">Rádio</span>
+                    <span class="massa-atomica">[226]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s²</span>
+                </article>
+                <!-- Actinídeos (indicador) -->
+                <article class="elemento lantanideos-actinideos-indicador" id="Ac-Lr">
+                    <span>89-103</span>
+                </article>
+                <article class="elemento metais-transicao" id="Rf" data-grupo="4">
+                    <span class="numero-atomico">104</span>
+                    <span class="simbolo">Rf</span>
+                    <span class="nome">Rutherfórdio</span>
+                    <span class="massa-atomica">[267]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 6d²</span>
+                </article>
+                <article class="elemento metais-transicao" id="Db" data-grupo="5">
+                    <span class="numero-atomico">105</span>
+                    <span class="simbolo">Db</span>
+                    <span class="nome">Dúbnio</span>
+                    <span class="massa-atomica">[268]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 6d³</span>
+                </article>
+                <article class="elemento metais-transicao" id="Sg" data-grupo="6">
+                    <span class="numero-atomico">106</span>
+                    <span class="simbolo">Sg</span>
+                    <span class="nome">Seabórgio</span>
+                    <span class="massa-atomica">[269]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 6d⁴</span>
+                </article>
+                <article class="elemento metais-transicao" id="Bh" data-grupo="7">
+                    <span class="numero-atomico">107</span>
+                    <span class="simbolo">Bh</span>
+                    <span class="nome">Bóhrio</span>
+                    <span class="massa-atomica">[270]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 6d⁵</span>
+                </article>
+                <article class="elemento metais-transicao" id="Hs" data-grupo="8">
+                    <span class="numero-atomico">108</span>
+                    <span class="simbolo">Hs</span>
+                    <span class="nome">Hássio</span>
+                    <span class="massa-atomica">[277]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 6d⁶</span>
+                </article>
+                <article class="elemento metais-transicao" id="Mt" data-grupo="9">
+                    <span class="numero-atomico">109</span>
+                    <span class="simbolo">Mt</span>
+                    <span class="nome">Meitnério</span>
+                    <span class="massa-atomica">[278]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 6d⁷</span>
+                </article>
+                <article class="elemento metais-transicao" id="Ds" data-grupo="10">
+                    <span class="numero-atomico">110</span>
+                    <span class="simbolo">Ds</span>
+                    <span class="nome">Darmstádtio</span>
+                    <span class="massa-atomica">[281]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 6d⁸</span>
+                </article>
+                <article class="elemento metais-transicao" id="Rg" data-grupo="11">
+                    <span class="numero-atomico">111</span>
+                    <span class="simbolo">Rg</span>
+                    <span class="nome">Roentgênio</span>
+                    <span class="massa-atomica">[282]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 6d⁹</span>
+                </article>
+                <article class="elemento metais-transicao" id="Cn" data-grupo="12">
+                    <span class="numero-atomico">112</span>
+                    <span class="simbolo">Cn</span>
+                    <span class="nome">Copernício</span>
+                    <span class="massa-atomica">[285]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 6d¹⁰</span>
+                </article>
+                <article class="elemento metais-pos-transicao" id="Nh" data-grupo="13">
+                    <span class="numero-atomico">113</span>
+                    <span class="simbolo">Nh</span>
+                    <span class="nome">Nihônio</span>
+                    <span class="massa-atomica">[286]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 6d¹⁰ 7p¹</span>
+                </article>
+                <article class="elemento metais-pos-transicao" id="Fl" data-grupo="14">
+                    <span class="numero-atomico">114</span>
+                    <span class="simbolo">Fl</span>
+                    <span class="nome">Fleróvio</span>
+                    <span class="massa-atomica">[289]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 6d¹⁰ 7p²</span>
+                </article>
+                <article class="elemento metais-pos-transicao" id="Mc" data-grupo="15">
+                    <span class="numero-atomico">115</span>
+                    <span class="simbolo">Mc</span>
+                    <span class="nome">Moscóvio</span>
+                    <span class="massa-atomica">[290]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 6d¹⁰ 7p³</span>
+                </article>
+                <article class="elemento metais-pos-transicao" id="Lv" data-grupo="16">
+                    <span class="numero-atomico">116</span>
+                    <span class="simbolo">Lv</span>
+                    <span class="nome">Livermório</span>
+                    <span class="massa-atomica">[293]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 6d¹⁰ 7p⁴</span>
+                </article>
+                <article class="elemento halogenios" id="Ts" data-grupo="17">
+                    <span class="numero-atomico">117</span>
+                    <span class="simbolo">Ts</span>
+                    <span class="nome">Tennesso</span>
+                    <span class="massa-atomica">[294]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 6d¹⁰ 7p⁵</span>
+                </article>
+                <article class="elemento gases-nobres" id="Og" data-grupo="18">
+                    <span class="numero-atomico">118</span>
+                    <span class="simbolo">Og</span>
+                    <span class="nome">Oganessônio</span>
+                    <span class="massa-atomica">[294]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 6d¹⁰ 7p⁶</span>
+                </article>
+            </section>
+            <section id="vazia" class="lantanideos-quadro">
+                <!-- Espaço para o quadro com animação -->
+            </section>
+            <!-- Lantanídeos -->
+            <section class="periodo periodo-separador" id="lantanideos">
+                <h3 class="titulo-lantanideos">Lantanídeos</h3>
+                <article class="elemento lantanideos" id="La" data-grupo="lan">
+                    <span class="numero-atomico">57</span>
+                    <span class="simbolo">La</span>
+                    <span class="nome">Lantânio</span>
+                    <span class="massa-atomica">138.91</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 5d¹</span>
+                </article>
+                <article class="elemento lantanideos" id="Ce" data-grupo="lan">
+                    <span class="numero-atomico">58</span>
+                    <span class="simbolo">Ce</span>
+                    <span class="nome">Cério</span>
+                    <span class="massa-atomica">140.12</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹ 5d¹</span>
+                </article>
+                <article class="elemento lantanideos" id="Pr" data-grupo="lan">
+                    <span class="numero-atomico">59</span>
+                    <span class="simbolo">Pr</span>
+                    <span class="nome">Praseodímio</span>
+                    <span class="massa-atomica">140.91</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f³</span>
+                </article>
+                <article class="elemento lantanideos" id="Nd" data-grupo="lan">
+                    <span class="numero-atomico">60</span>
+                    <span class="simbolo">Nd</span>
+                    <span class="nome">Neodímio</span>
+                    <span class="massa-atomica">144.24</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f⁴</span>
+                </article>
+                <article class="elemento lantanideos" id="Pm" data-grupo="lan">
+                    <span class="numero-atomico">61</span>
+                    <span class="simbolo">Pm</span>
+                    <span class="nome">Promécio</span>
+                    <span class="massa-atomica">[145]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f⁵</span>
+                </article>
+                <article class="elemento lantanideos" id="Sm" data-grupo="lan">
+                    <span class="numero-atomico">62</span>
+                    <span class="simbolo">Sm</span>
+                    <span class="nome">Samário</span>
+                    <span class="massa-atomica">150.36</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f⁶</span>
+                </article>
+                <article class="elemento lantanideos" id="Eu" data-grupo="lan">
+                    <span class="numero-atomico">63</span>
+                    <span class="simbolo">Eu</span>
+                    <span class="nome">Európio</span>
+                    <span class="massa-atomica">151.96</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f⁷</span>
+                </article>
+                <article class="elemento lantanideos" id="Gd" data-grupo="lan">
+                    <span class="numero-atomico">64</span>
+                    <span class="simbolo">Gd</span>
+                    <span class="nome">Gadolínio</span>
+                    <span class="massa-atomica">157.25</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f⁷ 5d¹</span>
+                </article>
+                <article class="elemento lantanideos" id="Tb" data-grupo="lan">
+                    <span class="numero-atomico">65</span>
+                    <span class="simbolo">Tb</span>
+                    <span class="nome">Térbio</span>
+                    <span class="massa-atomica">158.93</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f⁹</span>
+                </article>
+                <article class="elemento lantanideos" id="Dy" data-grupo="lan">
+                    <span class="numero-atomico">66</span>
+                    <span class="simbolo">Dy</span>
+                    <span class="nome">Disprósio</span>
+                    <span class="massa-atomica">162.50</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁰</span>
+                </article>
+                <article class="elemento lantanideos" id="Ho" data-grupo="lan">
+                    <span class="numero-atomico">67</span>
+                    <span class="simbolo">Ho</span>
+                    <span class="nome">Hólmio</span>
+                    <span class="massa-atomica">164.93</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹¹</span>
+                </article>
+                <article class="elemento lantanideos" id="Er" data-grupo="lan">
+                    <span class="numero-atomico">68</span>
+                    <span class="simbolo">Er</span>
+                    <span class="nome">Érbio</span>
+                    <span class="massa-atomica">167.26</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹²</span>
+                </article>
+                <article class="elemento lantanideos" id="Tm" data-grupo="lan">
+                    <span class="numero-atomico">69</span>
+                    <span class="simbolo">Tm</span>
+                    <span class="nome">Túlio</span>
+                    <span class="massa-atomica">168.93</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹³</span>
+                </article>
+                <article class="elemento lantanideos" id="Yb" data-grupo="lan">
+                    <span class="numero-atomico">70</span>
+                    <span class="simbolo">Yb</span>
+                    <span class="nome">Itérbio</span>
+                    <span class="massa-atomica">173.05</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴</span>
+                </article>
+                <article class="elemento lantanideos" id="Lu" data-grupo="lan">
+                    <span class="numero-atomico">71</span>
+                    <span class="simbolo">Lu</span>
+                    <span class="nome">Lutécio</span>
+                    <span class="massa-atomica">174.97</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹</span>
+                </article>
+            </section>
+            <!-- Actinídeos -->
+            <section class="periodo periodo-separador" id="actinideos">
+                <h3 class="titulo-actinideos">Actinídeos</h3>
+                <article class="elemento actinideos" id="Ac" data-grupo="act">
+                    <span class="numero-atomico">89</span>
+                    <span class="simbolo">Ac</span>
+                    <span class="nome">Actínio</span>
+                    <span class="massa-atomica">[227]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 6d¹</span>
+                </article>
+                <article class="elemento actinideos" id="Th" data-grupo="act">
+                    <span class="numero-atomico">90</span>
+                    <span class="simbolo">Th</span>
+                    <span class="nome">Tório</span>
+                    <span class="massa-atomica">232.04</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 6d²</span>
+                </article>
+                <article class="elemento actinideos" id="Pa" data-grupo="act">
+                    <span class="numero-atomico">91</span>
+                    <span class="simbolo">Pa</span>
+                    <span class="nome">Protactínio</span>
+                    <span class="massa-atomica">231.04</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f² 6d¹</span>
+                </article>
+                <article class="elemento actinideos" id="U" data-grupo="act">
+                    <span class="numero-atomico">92</span>
+                    <span class="simbolo">U</span>
+                    <span class="nome">Urânio</span>
+                    <span class="massa-atomica">238.03</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f³ 6d¹</span>
+                </article>
+                <article class="elemento actinideos" id="Np" data-grupo="act">
+                    <span class="numero-atomico">93</span>
+                    <span class="simbolo">Np</span>
+                    <span class="nome">Neptúnio</span>
+                    <span class="massa-atomica">[237]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f⁴ 6d¹</span>
+                </article>
+                <article class="elemento actinideos" id="Pu" data-grupo="act">
+                    <span class="numero-atomico">94</span>
+                    <span class="simbolo">Pu</span>
+                    <span class="nome">Plutônio</span>
+                    <span class="massa-atomica">[244]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f⁶</span>
+                </article>
+                <article class="elemento actinideos" id="Am" data-grupo="act">
+                    <span class="numero-atomico">95</span>
+                    <span class="simbolo">Am</span>
+                    <span class="nome">Amerício</span>
+                    <span class="massa-atomica">[243]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f⁷</span>
+                </article>
+                <article class="elemento actinideos" id="Cm" data-grupo="act">
+                    <span class="numero-atomico">96</span>
+                    <span class="simbolo">Cm</span>
+                    <span class="nome">Cúrio</span>
+                    <span class="massa-atomica">[247]</span>
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f⁷ 6d¹</span>
+                </article>
+                <article class="elemento actinideos" id="Bk" data-grupo="act"> 
+                    <span class="numero-atomico">97</span> 
+                    <span class="simbolo">Bk</span> 
+                    <span class="nome">Berquélio</span> 
+                    <span class="massa-atomica">[247]</span> 
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f⁹</span> 
+                </article> 
+                <article class="elemento actinideos" id="Cf" data-grupo="act"> 
+                    <span class="numero-atomico">98</span> 
+                    <span class="simbolo">Cf</span> 
+                    <span class="nome">Califórnio</span> 
+                    <span class="massa-atomica">[251]</span> 
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁰</span> 
+                </article> 
+                <article class="elemento actinideos" id="Es" data-grupo="act"> 
+                    <span class="numero-atomico">99</span> 
+                    <span class="simbolo">Es</span> 
+                    <span class="nome">Einstênio</span> 
+                    <span class="massa-atomica">[252]</span> 
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹¹</span> 
+                </article> 
+                <article class="elemento actinideos" id="Fm" data-grupo="act"> 
+                    <span class="numero-atomico">100</span> 
+                    <span class="simbolo">Fm</span> 
+                    <span class="nome">Férmio</span> 
+                    <span class="massa-atomica">[257]</span> 
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹²</span> 
+                </article> 
+                <article class="elemento actinideos" id="Md" data-grupo="act"> 
+                    <span class="numero-atomico">101</span> 
+                    <span class="simbolo">Md</span> 
+                    <span class="nome">Mendelévio</span> 
+                    <span class="massa-atomica">[258]</span> 
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹³</span> 
+                </article> 
+                <article class="elemento actinideos" id="No" data-grupo="act"> 
+                    <span class="numero-atomico">102</span> 
+                    <span class="simbolo">No</span> 
+                    <span class="nome">Nobélio</span> 
+                    <span class="massa-atomica">[259]</span> 
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴</span> 
+                </article> 
+                <article class="elemento actinideos" id="Lr" data-grupo="act"> 
+                    <span class="numero-atomico">103</span> 
+                    <span class="simbolo">Lr</span> 
+                    <span class="nome">Laurêncio</span> 
+                    <span class="massa-atomica">[262]</span> 
+                    <span class="config-eletronica">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 7p¹</span> 
+                </article> 
+            </section> 
+        </section>
+        <section class="legenda">
+            <h2>Legenda</h2>
+            <ul>
+                <li class="nao-metais">Não-metais</li>
+                <li class="metais-alcalinos">Metais Alcalinos</li>
+                <li class="semimetais">Semimetais</li>
+                <li class="gases-nobres">Gases Nobres</li>
+                <li class="metais-alcalinos-terrosos">Metais Alcalinos Terrosos</li>
+                <li class="halogenios">Halogênios</li>
+                <li class="metais-transicao">Metais de Transição</li>
+                <li class="lantanideos">Lantanídeos</li>
+                <li class="actinideos">Actinídeos</li>
+                <li class="metais-pos-transicao">Metais Pós-Transição</li>
+            </ul>
+        </section> 
+    </main>
+<footer>
+    <p>© 2025 Tabela Periódica em HTML5 por William Rodrigues da Silva</p>
+</footer>
+<script src="js/script.js"> </script>
+</body>
+</html>
